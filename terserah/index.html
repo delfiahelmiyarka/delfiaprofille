@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="Grentra Volta Febriansyah's web developer portfolio showcasing projects and contact information.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">My Portfolio</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#experience">Experience</a></li>
+        </ul>
+      </nav>
+      <button id="dark-toggle" class="dark-toggle">🌙</button>
+    </div>
+  </header>
+  
+
+  <!-- Hero Section -->
+  <section id="home" class="hero fade-in">
+    <div class="container">
+      <h2 class="hero-heading">Hello, I'm <span class="name-animated">Delfia Helmiyarka</span></h2>
+      <p>A passionate <strong>Web Developer</strong> crafting modern websites.</p>
+      <a href="#portfolio" class="btn">View Portfolio</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about fade-in">
+    <div class="container">
+      <div class="about-content">
+        <img src="foto.jpg" alt="Profile Picture" class="profile-img">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            Hi! I'm a web developer specializing in creating clean, efficient, and visually appealing websites. 
+            With expertise in HTML, CSS, and JavaScript, I bring ideas to life on the web.
+          </p>
+          <div class="skills">
+            <div class="skill">
+              <h4>HTML</h4>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <h4>Excel</h4>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 85%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <h4>JavaScript</h4>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 75%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Experience Section -->
+<!-- Experience Section -->
+<section id="experience" class="experience fade-in">
+  <div class="container">
+    <h2>Work Experience</h2>
+    <div class="timeline">
+      <!-- Item 1 -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content collapsible">
+          <div class="timeline-header">
+            <img src="Logo.png" alt="GT Icon" class="timeline-icon">
+            <div>
+              <h3>Admin Staff Production control (Gajah Tunggal radial plant)</h3>
+              <span class="timeline-date">september 2018 - Sekarang</span>
+            </div>
+            <button class="toggle-btn">+</button>
+          </div>
+          <div class="timeline-body">
+            <p>mengatur kesiapan produksi tyre terhadap permintaan seles. serta menyiapkan jadwal kesiapan mesin seperti preventive maintenace, cleaning mold, dan lain-lain<br>
+              <!-- Item 2 -->
+      <!-- <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content collapsible">
+          <div class="timeline-header">
+            <img src="Logo.png" alt="GT icon" class="timeline-icon">
+            <div>
+              <h3>admin staff  </h3>
+              <span class="timeline-date">Oktober 2023 - Juni 2024</span>
+            </div>
+            <button class="toggle-btn">+</button>
+            <div class="timeline-body">
+              <p>•Mengatur dan menyusun file pasien, baik fisik maupun digital, secara sistematis agar mudah diakses dan aman dari kehilangan data.<br>
+
+                •Melakukan proses pemindaian (scanning) dokumen pasien untuk memastikan data rekam medis tersimpan dalam format digital sesuai standar yang berlaku.<br>
+                
+                •Mengelola file rekam medis pasien baru maupun lama dengan menjaga keakuratan, kerahasiaan, dan integritas data sesuai dengan kebijakan institusi dan peraturan hukum yang berlaku.<br>
+                
+                •Berkoordinasi dengan tim medis untuk memastikan kebutuhan informasi pasien dapat terpenuhi secara cepat dan efisien.</p>
+            </div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div> -->
+</section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio fade-in">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="images/project1.jpg" alt="Project 1">
+          <h3>Project Title 1</h3>
+          <a href="#">Live Demo</a>
+        </div>
+        <div class="portfolio-item">
+          <img src="images/project2.jpg" alt="Project 2">
+          <h3>Project Title 2</h3>
+          <a href="#">Live Demo</a>
+        </div>
+        <div class="portfolio-item">
+          <img src="images/project3.jpg" alt="Project 3">
+          <h3>Project Title 3</h3>
+          <a href="#">Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact fade-in">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <section class="social-media">
+        <h2>Follow Me</h2>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank">
+            <img src="facebook.jpeg" alt="Facebook">
+          </a>
+          <a href="https://github.com/delfiahelmiyarka/" target="_blank">
+            <img src="Github.jpeg" alt="GitHub">
+          </a>
+          <a href="https://www.instagram.com/helmiyarka?igsh=MWowOGZwdGF2Z2g3" target="_blank">
+            <img src="instagram.jpeg" alt="Instagram">
+          </a>
+          <a href="https://www.linkedin.com/in/delfia-helmiyarka-3b9803174?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <img src="Linkedln.jpeg" alt="LinkedIn">
+          </a>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Grentra Volta Febriansyah. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script>
+    // Typing Effect
+    const text = "Grentra Volta Febriansyah";
+    let index = 0;
+    function typeEffect() {
+      const target = document.querySelector(".typing-text");
+      if (index < text.length) {
+        target.innerHTML += text.charAt(index);
+        index++;
+        setTimeout(typeEffect, 100);
+      }
+      
+    }
+    window.onload = typeEffect;
+
+    // Dark Mode Toggle
+    const toggle = document.getElementById('dark-toggle');
+    toggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+
+    // Scroll Animation
+    const faders = document.querySelectorAll('.fade-in');
+    const appearOptions = { threshold: 0.3 };
+    const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      });
+    }, appearOptions);
+    faders.forEach(fader => appearOnScroll.observe(fader));
+  </script>
+  <script>
+    // Expand/collapse timeline
+    document.querySelectorAll('.toggle-btn').forEach(button => {
+      button.addEventListener('click', () => {
+        const body = button.closest('.timeline-content').querySelector('.timeline-body');
+        const expanded = body.style.display === 'block';
+        body.style.display = expanded ? 'none' : 'block';
+        button.textContent = expanded ? '+' : '−';
+      });
+    });
+  </script>
+  
+</body>
+</html>
